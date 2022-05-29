@@ -1,0 +1,314 @@
+{
+  "format": 1,
+  "restore": {
+    "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj": {}
+  },
+  "projects": {
+    "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj",
+        "projectName": "InventoryСontrol.Api",
+        "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj",
+        "packagesPath": "C:\\Users\\Overlord\\.nuget\\packages\\",
+        "outputPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Overlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "P:\\Download\\Slack\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/gelios-company/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj": {
+                "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj",
+        "projectName": "InventoryСontrol.Application",
+        "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj",
+        "packagesPath": "C:\\Users\\Overlord\\.nuget\\packages\\",
+        "outputPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Overlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "P:\\Download\\Slack\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/gelios-company/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj": {
+                "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj"
+              },
+              "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+                "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj",
+        "projectName": "InventoryСontrol.Storage",
+        "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj",
+        "packagesPath": "C:\\Users\\Overlord\\.nuget\\packages\\",
+        "outputPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrol.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Overlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "P:\\Download\\Slack\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/gelios-company/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+                "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj",
+        "projectName": "InventoryСontrol.Domain",
+        "projectPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj",
+        "packagesPath": "C:\\Users\\Overlord\\.nuget\\packages\\",
+        "outputPath": "P:\\Work\\InventoryСontrol\\InventoryControl\\InventoryСontrolDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Overlord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "P:\\Download\\Slack\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/gelios-company/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
