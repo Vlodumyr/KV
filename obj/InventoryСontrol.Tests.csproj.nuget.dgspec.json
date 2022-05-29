@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Tests\\InventoryСontrol.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj",
+        "projectName": "InventoryСontrol.Api",
+        "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj",
+        "projectName": "InventoryСontrol.Application",
+        "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj"
+              },
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj",
+        "projectName": "InventoryСontrol.Storage",
+        "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\InventoryСontrol.Storage.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Storage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Tests\\InventoryСontrol.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Tests\\InventoryСontrol.Tests.csproj",
+        "projectName": "InventoryСontrol.Tests",
+        "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Tests\\InventoryСontrol.Tests.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Api\\InventoryСontrol.Api.csproj"
+              },
+              "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrol.Application\\InventoryСontrol.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoFixture.AutoMoq": {
+              "target": "Package",
+              "version": "[4.17.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj",
+        "projectName": "InventoryСontrol.Domain",
+        "projectPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\InventoryСontrol.Domain.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Desktop\\InventoryControl\\InventoryСontrolDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
